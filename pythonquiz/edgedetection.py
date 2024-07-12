@@ -1,7 +1,7 @@
 import cv2 as cv
 from matplotlib import pyplot as plt
 #taking file name as first command line argument
-img = cv.imread("cityimageinp.jpg",cv.IMREAD_GRAYSCALE)
+img = cv.imread("edgedetection.jpg",cv.IMREAD_GRAYSCALE)
 assert img is not None, "file could not be read, check with os.path.exists()"
 
 #Blurring the image for preventing noises
